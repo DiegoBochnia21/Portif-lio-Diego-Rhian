@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/Projeto Remover fundo.png" alt="imagem do Diego" class="rounded-circle" width="150" height="250"
+            srcset="">
+        <p class="lead">Eu sou o Diego</p>
+        <h1>Sou estudante</h1>
+        <p>Sou Estudante do 2º ano do Ensino Médio. Estudo no Colégio Estadual do Campo Dr. Adhelmar Sicuro. Veja os projetos que eu participei!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">Inglês fluente</p>
+            <p class="badge bg-secondary">Excel e Pacote Office</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Projetos que participei</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/canva-6.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Programa Ganhando o Mundo</h5>
+                        <p class="card-text">No início de 2024 participei do Programa Ganhando o Mundo. Em 2023 fui selecionado a participar do programa, onde morei e estudei por seis meses na Austrália.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/images.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">OBMEP</h5>
+                        <p class="card-text">Anualmente participo da OBMEP (Olimpíada Brasileira de Matemática das Escolas Públicas). Em 2022 conquistei uma menção honrosa e agora estou em busca de uma medalha.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/images (1).png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Maratona Tech</h5>
+                        <p class="card-text">Em 2024 participei da segunda fase da Maratona Tech, a qual aguardo a premiação que acontecerá no final de Novembro de 2024.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Programa Ganhando o Mundo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ganhando o Mundo é um programa
+                        de intercâmbio criado pelo Governo do
+                        Estado do Paraná e oferecido para
+                        estudantes da rede pública estadual de
+                        ensino. O objetivo é propiciar formação
+                        acadêmica em instituições estrangeiras,
+                        além de experiências culturais e
+                        pedagógicas que possam ser
+                        compartilhadas, posteriormente, nos
+                        colégios estaduais do Paraná.
+                        </p>
+                    <img src="img/canva-6.jpg" class="img-fluid w-100"
+                        alt="Imagem da logo do programa Ganhando o Mundo.">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.ganhandoomundo.pr.gov.br/">Site do Programa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">OBMEP</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p> A Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP) é um projeto nacional dirigido às escolas públicas e privadas brasileiras, realizado pelo Instituto de Matemática Pura e Aplicada – IMPA, com o apoio da Sociedade Brasileira de Matemática – SBM, e promovida com recursos do Ministério da Educação – MEC e do Ministério da Ciência, Tecnologia e Inovação – MCTI.
+                    </p>
+                    <img src="img/20353_d715b192-bd57-4a71-b8ec-49ce53f2cac9.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto OBMEP">
+                </div>
+                <div class="modal-footer">
+                    <a href="http://www.obmep.org.br/">Ver site da OBMEP</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Maratona Tech</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A Maratona Tech, considerada a maior competição de tecnologia entre escolas do país, está com inscrições abertas até o dia 28 de julho. A Secretaria de Educação (Seduc) é parceira do evento, que reúne estudantes e professores de todo o Brasil para desenvolver projetos de inovação, despertando o interesse dos jovens pelas carreiras de tecnologia.</p>
+
+                    <p>Idealizada pelo Movimento Tech e realizada pela Associação Cactus, a maratona também busca combater as desigualdades e ampliar oportunidades no mercado de trabalho, impulsionando o protagonismo juvenil. As organizações e entidades envolvidas trabalham na capacitação e fomento de vagas na área de tecnologia. </p>
+                    <img src="img/images (1).png" alt="Projeto Maratona Tech" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://maratona.tech/">Ver site do programa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/DiegoBochnia21">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Diego Rhian Bochnia</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
